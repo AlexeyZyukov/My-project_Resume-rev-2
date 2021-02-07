@@ -1,0 +1,292 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#f9faf5; 
+}
+
+
+/* main container section */
+.main-container-section {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 1319;
+    width: 1200px;
+    background-color: fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(3, 0, 0, 0.1);
+}
+
+/* main content section */
+.main-container-content{
+    padding: 100px;
+    }
+
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.about-me-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-me-section {
+    /* описание моей деятельности */
+    width: 400px;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0 0 40px 0;
+}
+
+.main-content-titles{
+    /* формат основных заголовков главной секции */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.my-project-section {
+    margin-bottom: 50px;
+}
+
+.my-project-list{
+    padding: 0 0 0 17px;
+    }
+
+.my-project-item{ 
+/* формат нумерации листа */
+    color: #000000;
+    font-weight: bold;
+}
+
+.my-project-text{
+/* формат текста листа */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my-projects-link{
+    /* формат и-нет ссылки */
+    color: #595959;
+}
+
+.my-projects-bracket{
+    /* формат скобки языка программирования */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* my work experience section */
+/* .my-work-experience-section {
+    
+} */
+
+.my-work-experience-company-position{
+    /* позиция блока работы в компании */
+    margin: 8 0 10px 0;
+}
+
+.my-work-experience-company-color{
+    /* цвет определений, описаний, названий */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #f86d3a;
+}
+
+.my-work-experience-position{
+/* формат названий должностей */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.my-work-years{
+/* формат периодов работы */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.vertical-line-format{
+    /* формат вертикальной черты */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.my-work-experience-duties{
+    /* формат блока должностных обязанностей */
+    padding: 0 0 0 18px;
+}
+
+.my-work-experience-description{
+    /* формат описания должностніх обязанностей */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+/* my -education -section description */
+    
+.my-education-color{
+    /* цвет определений, описаний, названий */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #f86d3a;
+}
+
+.my-study-experience{
+    /* формат блока обучения */
+    padding: 0 0 0 18px;
+}
+
+.my-study-description{
+    /* формат описания профессии */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-study-years{
+    /* формат периодов обучения */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+/* sidebar section */
+.sidebar-section{
+    /* height: 1913px; */
+    /* display: flex;
+    flex-direction: row; */
+    /* height: 100%; */
+    width: 370px;
+    padding: 40px 0;
+    background: #1E2939;
+    
+}
+
+.my-photo {
+    width: 370px;
+    /* height: ; */
+}
+
+/* position of sections */
+.contacts-section, 
+.tech-skills-section{
+    margin: 50px 0 0 40px;
+}
+
+.sidebar-titles{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26,82px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* contacts section attributes */
+.contacts-section-type{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+
+.contacts-section-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+/* Tech skils section */
+
+.tech-skills-list{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.tech-skils-item-marks{
+    color: #FB6D3A;
+}
+.tech-skils-item-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Soft skils section */
+.soft-skills-section{
+    margin: 50px 0 0 40px;     
+}
+
+.soft-skills-list{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.soft-skills-items-marks{
+    color: #FB6D3A;
+}
+
+.soft-skills-items-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-try{
+    padding-left: 25px;
+    color: #f86d3a;
+}
